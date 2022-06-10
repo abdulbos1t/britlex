@@ -252,6 +252,7 @@ img {
     }
     .hero-container{
         .hero-wrapper{
+            width: 100% !important;    
             .hero-inner{
                 display: block;
                 font-size: 3rem !important;
@@ -266,11 +267,11 @@ img {
         .hero-img{
             width: 100% !important;
             .hero-img-img{
-                width: 78% !important;
+                width: 100% !important;
             }
         }
         .hero-btn{
-            width: 90%;
+            width: 90% !important;
         }
     }
     }
