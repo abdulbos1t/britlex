@@ -243,6 +243,9 @@ img {
     
 }
 @media (max-width: 320px){
+    .container{
+        padding: 0 1.3rem !important;
+    }
     html{
         font-size: 6.5px;
     }
@@ -254,14 +257,16 @@ img {
         .hero-wrapper{
             width: 100% !important;    
             .hero-inner{
+                width: 92% !important;
                 display: block;
                 font-size: 3rem !important;
-                .span{
+                span{
+                    margin: 0 !important;
                     width: 10% !important;
                 }
             }
             .hero-text{
-                width: 100% !important;
+                width: 72% !important;
             }
         }
         .hero-img{
