@@ -303,7 +303,7 @@ img {
             }  
         }
         .contact-wrapper{
-            // margin-left: 15rem;
+            margin-left: 15rem;
             width: 100%;
             .contact-text{
                 font-size: 2rem;
@@ -529,7 +529,7 @@ img {
             }
         }
         .contact-wrapper{
-            
+           
             .contact-text{
                 font-size: 1.4rem !important;
                 line-height: 2.1rem !important;
@@ -690,6 +690,7 @@ img {
             }
         }
         .contact-wrapper{
+            margin-left: 0 !important;
             
             .contact-text{
                 text-align: center;
@@ -783,6 +784,7 @@ img {
                 }
             }
             .contact-wrapper{
+                margin-left: 0 !important;
                 width: 100%;
                 padding: 0 2rem;
                 .contact-text{
