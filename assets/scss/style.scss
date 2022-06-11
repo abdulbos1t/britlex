@@ -280,10 +280,10 @@ img {
 .contact-container{
     width: 100% !important;
     .contact-inner{
-        display: block;
+        // width: 10% !important;
         position: relative;
         top: 12rem;
-        left: 2rem;
+        left: 0rem;
         font-size: 4.8rem;
         font-weight: 600;
         line-height: 8rem;
@@ -294,7 +294,7 @@ img {
     .contact-flex{
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         .contact-img{
             width: 50%;
             .contact-img-img{
@@ -304,7 +304,7 @@ img {
         }
         .contact-wrapper{
             // margin-left: 15rem;
-            width: 70%;
+            width: 100%;
             .contact-text{
                 font-size: 2rem;
                 width: 87%;
@@ -314,6 +314,7 @@ img {
             form{
                 display: flex;
                 align-items: center;
+                justify-content: center;
                 #inputemail{
                     padding: 0 3.3rem;
                     outline: none;
@@ -518,7 +519,7 @@ img {
     .contact-container{
         .contact-inner{
             top: 5rem !important;
-            left: 3rem;
+            // left: 3rem;
             font-size: 3rem !important;
         }
         .contact-img{
@@ -535,7 +536,7 @@ img {
             }
             form{
                 #inputemail{
-                    width: 28.3rem !important;
+                    width: 20rem !important;
                     height: 5rem !important ;
                     font-size: 1.3rem;
                 }
