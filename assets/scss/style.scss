@@ -204,7 +204,7 @@ img {
         // .gi2{width: 29rem; height: 29rem;}
         .gi3{padding-top: 3.5rem;}
         .gi4{width: 30rem !important; height: 22rem !important; }
-      padding: 0.2rem 3rem;
+      padding: 0.2rem 3rem !important;
       border-radius: 1rem;
       background: #F5F5F5;
       .grid-inner{
@@ -218,7 +218,7 @@ img {
         
     }
     .grid-text{
-        width: 110%;
+        // width: 110%;
         // font-family: Poppins;
         font-size: 1.6rem;
         font-weight: 400;
